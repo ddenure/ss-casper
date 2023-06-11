@@ -86,6 +86,13 @@ production stylesheet in assets/built/screen.css
     width: 100%;
 }
 
+.center-home{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 
 /* 3. Site Header
 /* ---------------------------------------------------------- */
@@ -150,7 +157,7 @@ production stylesheet in assets/built/screen.css
 .site-logo {
     flex-shrink: 0;
     margin: 0 auto;
-    max-height: 120px;
+    max-height: 58px;
 }
 
 .site-header-content.left-aligned .site-logo {
